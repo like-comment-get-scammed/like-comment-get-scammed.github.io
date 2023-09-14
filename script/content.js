@@ -1,7 +1,7 @@
 // ===== START CUSTOM DATA =====
 const DATA = {
     STYLE: {
-        NB_MAX_CONTRIBUTORS_PER_LINE: 4, // Integer in [1, 2, 3, 4, 6]
+        NB_MAX_CONTRIBUTORS_PER_LINE: 3, // Integer in [1, 2, 3, 4, 6]
         CONTRIBUTOR_IMAGE_SIZE: "180px",
         FOOTER_LOGO_SIZE: "240px",
     },
