@@ -1,1 +1,1 @@
-# scan-me-if-you-can.github.io
+# like-comment-get-scammed.github.io
