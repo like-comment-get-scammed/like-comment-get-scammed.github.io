@@ -85,8 +85,7 @@ const DATA = {
     ],
     CITATION: ` \
         @article{xigao2024comment,
-            title     = {Like, Comment, Get Scammed: Characterizing Comment Scams on Media
-                Platforms},
+            title     = {Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms},
             author    = {Li, Xigao and Rahmati, Amir and Nikiforakis, Nick},
             booktitle = {Network and Distributed Systems Security (NDSS) Symposium},
             year      = {2024}
