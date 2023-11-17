@@ -60,7 +60,7 @@ const DATA = {
             "links": [
                 {
                     "name": "PDF (Available Soon)",
-                    "url": "#",
+                    "url": "paper/youtube_scam_paper-23nov16.pdf",
                     "icon": "img/paper_copy.svg"
                 },
             ],
@@ -71,7 +71,8 @@ const DATA = {
             "links": [
                 {
                     "name": "Available Soon",
-                    "url": "#",
+                    "id": "accessButton",
+                    "url": "https://github.com/like-comment-get-scammed/like-comment-get-scammed.github.io/tree/main/code",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
                 // {
@@ -96,12 +97,12 @@ const DATA = {
             {
                 "name": "PragSec Lab",
                 "src": "img/pragsec.png",
-                "url": "#"
+                "url": "https://www.securitee.org/"
             },
             {
                 "name": "Ethos Lab",
                 "src": "img/ethos.png",
-                "url": "#"
+                "url": "https://github.com/Ethos-lab"
             },
             {
                 "name": "Stony Brook University",
@@ -251,7 +252,7 @@ function displayContributors() {
 /* Links section */
 function formatLink(_link) {
     return `<div class="col-sm text-center">
-            ${link(_link.url, `<img src=${_link.icon} width="20px"> ${_link.name}`, `role="button" class="btn btn-dark"`)}
+            ${link(_link.url, `<img src=${_link.icon} width="20px"> ${_link.name}`, `role="button" class="btn btn-dark" id=${"id" in _link?_link.id:""}`)}
         </div>`;
 }
 
@@ -302,6 +303,22 @@ function displayFooter() {
     `;
 }
 
+function loadConsent() {
+    document.getElementById('accessButton').addEventListener('click', function() {
+    document.getElementById('consentModal').style.display = 'block';
+    });
+
+    document.getElementById('consentCheckbox').checked = false;
+    document.getElementById('consentCheckbox').addEventListener('change', function() {
+        document.getElementById('confirmButton').disabled = !this.checked;
+    });
+
+    document.getElementById('confirmButton').addEventListener('click', function() {
+        window.location.href = 'https://github.com/like-comment-get-scammed/like-comment-get-scammed.github.io';
+        document.getElementById('consentModal').style.display = 'none';
+    });
+}
+
 /* Main */
 function displayPage() {
     displayTitle();
@@ -312,6 +329,7 @@ function displayPage() {
     // displayContentSections();
     displayContributors();
     displayLinks();
+    loadConsent();
     displayCitation();
     displayFooter();
 }
