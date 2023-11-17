@@ -14,7 +14,7 @@ We aim to contribute to the academic and professional communities by providing a
 ### Usage Restrictions
 
 1. The code must not be used for spamming or any activities that violate Google's policies (e.g. Google Cloud API/YouTube policies), local laws, international laws, or general ethical standards.
-2. Any form of misuse that contradicts these guidelines is strictly prohibited and falls outside the intended use of this software.
+2. Any form of misuse that contradicts these guidelines is strictly prohibited and falls outside the intended use of the code snippet.
 
 ### No Liability
 
