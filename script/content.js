@@ -72,7 +72,7 @@ const DATA = {
                 {
                     "name": "Available Soon",
                     "id": "accessButton",
-                    "url": "https://github.com/like-comment-get-scammed/like-comment-get-scammed.github.io/tree/main/code",
+                    "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
                 // {
@@ -314,7 +314,7 @@ function loadConsent() {
     });
 
     document.getElementById('confirmButton').addEventListener('click', function() {
-        window.location.href = 'https://github.com/like-comment-get-scammed/like-comment-get-scammed.github.io';
+        window.location.href = 'https://github.com/like-comment-get-scammed/like-comment-get-scammed.github.io/tree/main/code';
         document.getElementById('consentModal').style.display = 'none';
     });
 }
