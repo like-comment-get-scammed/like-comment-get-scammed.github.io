@@ -59,7 +59,7 @@ const DATA = {
             "icon": "img/paper.svg",
             "links": [
                 {
-                    "name": "PDF (Available Soon)",
+                    "name": "PDF",
                     "url": "paper/youtube_scam_paper-23nov16.pdf",
                     "icon": "img/paper_copy.svg"
                 },
@@ -70,7 +70,7 @@ const DATA = {
             "icon": "img/code.svg",
             "links": [
                 {
-                    "name": "Available Soon",
+                    "name": "Access Crawler Code",
                     "id": "accessButton",
                     "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
