@@ -66,6 +66,17 @@ const DATA = {
             ],
         },
         {
+            "title": "Slides",
+            "icon": "img/presentation-96.png",
+            "links": [
+                {
+                    "name": "PDF",
+                    "url": "paper/ndss24-like-comment-get-scammed.pdf",
+                    "icon": "img/paper_copy.svg"
+                },
+            ],
+        },
+        {
             "title": "Code",
             "icon": "img/code.svg",
             "links": [
