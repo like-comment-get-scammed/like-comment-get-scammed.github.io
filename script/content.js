@@ -72,7 +72,7 @@ const DATA = {
         },
         {
             "title": "Slides",
-            "icon": "img/presentation-96.png",
+            "icon": "img/presentation-50.png",
             "links": [
                 {
                     "name": "PDF",
