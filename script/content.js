@@ -12,6 +12,11 @@ const DATA = {
             "name": "Network and Distributed Systems Security (NDSS) Symposium 2024",
             "url": "https://www.ndss-symposium.org/ndss2024/",
         },
+        PROJECT_AWARD: {
+            "name": "*2024 Distinguished Paper Award*",
+            "url": "https://www.ndss-symposium.org/ndss2024/",
+            "color": "#F08080",
+        },
         AUTHOR_NAME: "Xigao Li",
         VIDEO_SRC: "video/dummy_video.mp4",
     },
@@ -173,6 +178,7 @@ function displayTitle() {
     document.getElementById("nav-project-title").innerHTML = oneLineTitle;
     document.getElementById("head-title").innerHTML = DATA.HEAD.PROJECT_TITLE;
     document.getElementById("head-subtitle").innerHTML = `<a href=${DATA.HEAD.PROJECT_SUBTITLE.url}>${DATA.HEAD.PROJECT_SUBTITLE.name}</a>`;
+    document.getElementById("head-award").innerHTML = `<a href=${DATA.HEAD.PROJECT_AWARD.url} style="color: ${DATA.HEAD.PROJECT_AWARD.color}";>${DATA.HEAD.PROJECT_AWARD.name}</a>`;
 }
 
 function displayNav() {
